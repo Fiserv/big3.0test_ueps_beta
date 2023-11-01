@@ -1,6 +1,6 @@
 {
-  "title": "Big3.0Test UEPS(Beta)",
-  "name": "Big3.0Test",
+  "title": "Big3.0-UEPS",
+  "name": "Big3.0-UEPS",
   "brand": "Fiserv",
   "brandLogoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Fiserv_Logo.jpg",
   "solution": ["financial-institutions"],

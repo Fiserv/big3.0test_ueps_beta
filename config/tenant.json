@@ -3,7 +3,7 @@
   "name": "Big3.0-UEPS",
   "brand": "Fiserv",
   "brandLogoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Fiserv_Logo.jpg",
-  "solution": ["financial-institutions"],
+  "solution": ["fiserv-developer-resources","fiserv-resources"],
   "brandDescription": "Unified Enrollment – Subscription",
   "apiVersions1": [
       {

@@ -49,17 +49,17 @@
   },
   "supportConfig": [{ 
     "bug": {
-      "label": "bug,CommerceHub",
+      "label": "bug,Big3.0-UEPS",
       "template": "bug.md",
       "assignees": "<github-id>"
     },  
     "feedback": {
-      "label": "feedback,CommerceHub",
+      "label": "feedback,Big3.0-UEPS",
       "template": "feedback.md",
       "assignees": "<github-id>"
     },
     "enhancement": {
-      "label": "enhancement,CommerceHub",
+      "label": "enhancement,Big3.0-UEPS",
       "template": "feature.md",
       "assignees": "<github-id>"
     }

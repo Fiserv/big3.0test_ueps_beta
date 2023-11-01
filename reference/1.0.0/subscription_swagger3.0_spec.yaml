@@ -1,0 +1,41 @@
+openapi: 3.0.1
+info:
+  title: UEPS Subscriber
+  description: UEPS Subscription Service
+  version: '1.0'
+servers:
+  - url: https://ueps-dev-subscription-service.apps.fog.onefiserv.net
+    description: Generated server url
+paths:
+  /ueps/enrol:
+    post:
+      tags:
+        - subscription-controller
+      operationId: enrollUser
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SubscriptionDTO'
+      responses:
+        '200':
+          description: default response
+          content:
+            '*/*':
+              schema:
+                type: object
+                additionalProperties:
+                  type: object
+components:
+  schemas:
+    SubscriptionDTO:
+      type: object
+      properties:
+        unifiedUserId:
+          type: string
+        orgSymbol:
+          type: string
+        enrollmentData:
+          type: object
+          additionalProperties:
+            type: object

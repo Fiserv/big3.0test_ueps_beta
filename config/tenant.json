@@ -1,10 +1,10 @@
 {
-  "title": "Sample-Tenant-Test",
-  "name": "Sample-Tenant-Test",
+  "title": "Big3.0Test UEPS(Beta)",
+  "name": "Big3.0Test",
   "brand": "Fiserv",
   "brandLogoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Fiserv_Logo.jpg",
   "solution": ["financial-institutions"],
-  "brandDescription": "Fiserv, Inc. is a global provider of payments and financial services technology solutions. The Company provides account processing and digital banking solutions, card issuer processing and network services, payments, e-commerce, merchant acquiring and processing, and the Clover cloud-based point-of-sale solution. The Company operates through three segments: Merchant Acceptance (Acceptance), Financial Technology (Fintech) and Payments and Network (Payments).",
+  "brandDescription": "Unified Enrollment – Subscription",
   "apiVersions1": [
       {
         "version": "1.0.0",
@@ -19,15 +19,15 @@
     "logoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Portal_Logo.png",
     "description": "To onboard properly into the Developer Studio as a tenant each product must support these APIs so that we can retrieve product specific API specifications and documentation.",
     "longDescription":"To onboard properly into the Developer Studi as a tenant each product must support these APIs so that we can retrieve product specific API specifications and documentation.",
-    "apiSpecification": "/v1/apis/<name_of_tenant>",
-    "layout": "/v1/layouts/<name_of_tenant>",
-    "documentation": "/v1/docs/<name_of_tenant>",
-    "documenttree": "/v1/docs/<name_of_tenant>",
-    "documenttreeV2": "/v2/docs/<name_of_tenant>",
-    "docsCount": "/v2/docs/count/<name_of_tenant>",
-    "sandbox": "/v1/sandboxrun/<name_of_tenant>",
-    "accessConfig": "/v1/fileAccess/<name_of_tenant>",
-    "assets": "/v1/assets/<name_of_tenant>",    
+    "apiSpecification": "/v1/apis/<Big3.0Test>",
+    "layout": "/v1/layouts/<Big3.0Test>",
+    "documentation": "/v1/docs/<Big3.0Test>",
+    "documenttree": "/v1/docs/<Big3.0Test>",
+    "documenttreeV2": "/v2/docs/<Big3.0Test>",
+    "docsCount": "/v2/docs/count/<Big3.0Test>",
+    "sandbox": "/v1/sandboxrun/<Big3.0Test>",
+    "accessConfig": "/v1/fileAccess/<Big3.0Test>",
+    "assets": "/v1/assets/<Big3.0Test>",    
     "feature":[
       {
         "name": "sandBox",

@@ -11,6 +11,8 @@ paths:
     post:
       tags:
         - subscription-controller
+      x-group-name: Subscription-Controller
+      x-proxy-name: enrol   
       operationId: enrollUser
       requestBody:
         content:
